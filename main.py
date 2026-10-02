@@ -1,9 +1,10 @@
+import os
 import smtplib
 import random
 from datetime import datetime
 
-my_mail = "atajir787@gmail.com"
-my_password = "gzfjbrvgzukzzzos"
+my_mail = os.environ.get("my_mail")
+my_password = os.environ.get("my_password")
 
 now = datetime.now()
 
