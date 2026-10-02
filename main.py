@@ -3,8 +3,8 @@ import smtplib
 import random
 from datetime import datetime
 
-MY_MAIL = os.environ.get("MY_MAIL")
-MY_PASSWORD = os.environ.get("MY_PASSWORD")
+my_mail = os.environ.get("MY_MAIL")
+my_password = os.environ.get("MY_PASSWORD")
 
 now = datetime.now()
 
